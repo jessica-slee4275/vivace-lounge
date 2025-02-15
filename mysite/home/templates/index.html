@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+	{% include "includes/header.html" %}
+	<body class="is-preload homepage">
+		<div id="page-wrapper">
+			<!-- Banner -->
+			<div>
+				<div class="image-container">
+					<img src="{% static 'images/grey-background.png' %}" alt="grey-background" style="width:100%;">
+					<div class="col-12-medium text-overlay">
+						<h2 class ="cinzel-decorative-bold">Enhancing Your Natural Beauty with Precision & Artistry!</h2>
+						<p class ="cinzel-decorative-bold">Expert SMP & Brow Services for a Flawless, Confident Look</p>
+						<div class="col-4">
+							<a href="#" class="button">Check Promotion</a>
+						</div>	
+						<p class ="cinzel-decorative-regular padding-top-05 font-size-1">Redefining Beauty, One Stroke at a Time.</p>
+					</div>
+				</div>
+			</div>			
+			<!-- Our Services -->
+			{% include "includes/our-services.html" %}
+			<!-- Client Testimonial -->
+			{% include "includes/client-testimonial.html" %}			
+			<!-- Book Your Appointment Today -->
+			{% include "includes/book-appointment-today.html" %}
+			<!-- Footer -->
+			{% include "includes/footer.html" %}
+		</div>
+	</body>
+</html>

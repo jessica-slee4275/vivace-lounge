@@ -1,0 +1,331 @@
+.width-auto {
+    width: auto !important;
+}
+.text-center {
+    text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.font-size-1 {
+    font-size: 1em;
+}
+.padding-top-05 {
+    padding-top: 0.5em;
+}
+.padding-top-1 {
+  padding-top: 1em;
+}
+.padding-top-3 {
+  padding-top: 3em;
+}
+.padding-top-5 {
+    padding-top: 5em;
+}
+.padding-bottom-2 {
+  padding-bottom: 2em;
+}
+.margin-top-bottom-5px{
+    margin: 5px 0;
+}
+.margin-top--07{
+  margin-top: -0.7em;
+}
+.margin-top-1-5{
+  margin-top: 1.5em !important;
+}
+
+.width-30{
+  width: 30%;
+}
+.width-70{
+  width: 70%;
+}
+.width-100{
+  width: 100%;
+}
+
+.horizontally-center{
+  justify-content: center;
+}
+
+.image-container {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  width: 100%; /* 이미지 크기 조정 */
+  height: 450px;
+  opacity: 0.5;
+}
+
+.text-overlay {
+  position: absolute;
+  text-align: center;
+  width: 70%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 텍스트에 그림자 추가 */
+}
+
+#our-services img{
+    width: 300px; 
+    height: 200px; 
+    object-fit: cover; /* 넘치는 부분 크롭 */
+    border-radius: 10px; /* 모서리를 둥글게 (선택 사항) */
+}
+
+#our-services .row a {
+    display: flex;
+    justify-content: center;
+}
+
+#our-services h3, #book-appointment-today h2 {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#book-appointment-today p {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+#about-us p {
+  line-height: 1.5;
+}
+
+#about-us .logo{
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 2em;
+}
+
+#social-icons img{
+  width: 105%;
+  height: 100%;
+}
+
+#the-products-we-use {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  flex-direction: column;
+  margin-top: 5em;
+}
+
+.img-box{
+  display: flex;
+  justify-content: center;
+  gap: 3em; /* 이미지 사이 간격 */
+  margin-bottom: 3em; /* 줄 간격 */
+}
+
+@media screen and (max-width: 736px) {
+  .img-box {
+    flex-direction: column;
+    align-items: center;
+    gap: 2em; /* 이미지 사이 간격 */
+    margin-bottom: 2em; /* 줄 간격 */
+  }
+
+}
+
+#the-products-we-use img{
+  width: 100px; /* 이미지 크기 조정 */
+  height: 100px;
+  object-fit: cover;
+  display: block; /* 텍스트와 간격 조정 */
+  margin: 0 auto;
+}
+
+#certifications img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  opacity: 1;
+}
+.img-box .image-container {
+  text-align: center; /* 이미지와 텍스트 중앙 정렬 */
+}
+
+.img-box .caption {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+.features-box{
+  padding: 3em;
+  margin-top: 2em; 
+}
+
+
+/* CSS */
+.button-13 {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Open Sans",sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  margin: 3px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 170px;
+}
+
+.button-13:hover {
+  background-color: #f7fafa;
+}
+
+.button-13:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}
+.cinzel-decorative-regular {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cinzel-decorative-bold {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.cinzel-decorative-black {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.poppins-thin {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
