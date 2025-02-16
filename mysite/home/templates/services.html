@@ -4,25 +4,26 @@
 	{% include "includes/header.html" %}
 	<body class="is-preload homepage">
 		<div id="page-wrapper">
-            <div id = "our-services" class="box container features-box">
-                <div class="col-12-medium text-center">
+            <div id = "our-services" class="box container features-box text-center">
+                <div class="col-12-medium">
                     <h2 class ="cinzel-decorative-bold">Our Services</h2>
-                    
-                    <div class="col-4 padding-bottom-2">
-                        <a href="#smp" class="button-13" role="button">SMP</a>
-                        <a href="#semi-permanent-brow" class="button-13" role="button">Semi-Permanent Brows</a>
-                        <a href="#brow-styling" class="button-13" role="button">Brow Styling</a>
-                    </div>
                 </div>
                 <div id = "smp" class="row">
                     <div class="col-4 col-12-medium">
                         <!-- Box -->
                             <section class="box feature">
-                                <a href="#" class="image featured"><img src="{% static 'images/male-smp.jpg' %}" alt="" /></a>
+                                <div class="center-btn">
+                                    <img class="image featured" src="{% static 'images/services/smp-before-after.png' %}" alt="" />
+                                </div>
                                 <div class="inner">
                                     <header>
-                                        <p>Scalp micopigmentation</p>
-                                        <h3>Crown</h3>
+                                        <h3 class = "center-btn" style = "height: 60px;">Scalp micopigmentation</h3>
+                                        <p>Crown</p>
+                                        <p>Hair Line</p>
+                                        <p>Half Scalp/Full Scalp</p>
+                                        <div class="center-btn">
+                                            <a href="/services/smp" class="button-13" role="button">Learn more</a>
+                                        </div>
                                     </header>
                                 </div>
                             </section>
@@ -30,11 +31,18 @@
                     <div class="col-4 col-12-medium">
                         <!-- Box -->
                             <section class="box feature">
-                                <a href="#" class="image featured"><img src="{% static 'images/female-smp.jpg' %}" alt="" /></a>
+                                <div class="center-btn">
+                                    <img class="image featured" src="{% static 'images/services/microblading.jpg' %}" alt="" />
+                                </div>
                                 <div class="inner">
                                     <header>
-                                        <p>Scalp micopigmentation</p>
-                                        <h3>Hair Line</h3>
+                                        <h3 class = "center-btn" style = "height: 60px;">Semi-Permanent Brows</h3>
+                                        <p>Microblading</p>
+                                        <p>Microshading</p>
+                                        <p>Combo brows</p>
+                                        <div class="center-btn">
+                                            <a href="/services/semi-permanent-brows" class="button-13" role="button">Learn more</a>
+                                        </div>
                                     </header>
                                 </div>
                             </section>
@@ -42,99 +50,30 @@
                     <div class="col-4 col-12-medium">
                         <!-- Box -->
                             <section class="box feature">
-                                <a href="#" class="image featured"><img src="{% static 'images/male-smp-4.jpg' %}" alt="" /></a>
-                                <div class="inner">
-                                    <header>
-                                        <p>Scalp micopigmentation</p>
-                                        <h3>Half/Full Scalp</h3>
-                                    </header>
+                                <div class="center-btn">
+                                    <img class="image featured" src="{% static 'images/services/brow-tinting.jpg' %}" alt="" />
                                 </div>
-                            </section>
-                    </div>
-                </div>
-                <div id = "semi-permanent-brow" class="row">
-                    <div class="col-4 col-12-medium">
-                        <!-- Box -->
-                            <section class="box feature">
-                                <a href="#" class="image featured"><img src="{% static 'images/microblading2.jpg' %}" alt="" /></a>
                                 <div class="inner">
                                     <header>
-                                        <p>Semi-Permanent Brows</p>
-                                        <h3>Microblading</h3>
-                                    </header>
-                                </div>
-                            </section>
-                    </div>
-                    <div class="col-4 col-12-medium">
-                        <!-- Box -->
-                            <section class="box feature">
-                                <a href="#" class="image featured"><img src="{% static 'images/microshading.jpg' %}" alt="" /></a>
-                                <div class="inner">
-                                    <header>
-                                        <p>Semi-Permanent Brows</p>
-                                        <h3>MicroShading</h3>
-                                    </header>
-                                </div>
-                            </section>
-                    </div>
-                    <div class="col-4 col-12-medium">
-                        <!-- Box -->
-                            <section class="box feature">
-                                <a href="#" class="image featured"><img src="{% static 'images/combo-brow.jpg' %}" alt="" /></a>
-                                <div class="inner">
-                                    <header>
-                                        <p>Semi-Permanent Brows</p>
-                                        <h3>Combo brow</h3>
-                                    </header>
-                                </div>
-                            </section>
-                    </div>
-                </div>
-                <div id = "brow-styling" class="row">
-                    <div class="col-4 col-12-medium">
-                        <!-- Box -->
-                            <section class="box feature">
-                                <a href="#" class="image featured"><img src="{% static 'images/brow-lamination.jpg' %}" alt="" /></a>
-                                <div class="inner">
-                                    <header>
-                                        <p>Brow Styling</p>
-                                        <h3>Brow Lamination</h3>
-                                    </header>
-                                </div>
-                            </section>
-                    </div>
-                    <div class="col-4 col-12-medium">
-                        <!-- Box -->
-                            <section class="box feature">
-                                <a href="#" class="image featured"><img src="{% static 'images/brow-tinting.jpg' %}" alt="" /></a>
-                                <div class="inner">
-                                    <header>
-                                        <p>Brow Styling</p>
-                                        <h3>Brow Tinting</h3>
-                                    </header>
-                                </div>
-                            </section>
-                    </div>
-                    <div class="col-4 col-12-medium">
-                        <!-- Box -->
-                            <section class="box feature">
-                                <a href="#" class="image featured"><img src="{% static 'images/brow-shaping.jpg' %}" alt="" /></a>
-                                <div class="inner">
-                                    <header>
-                                        <p>Brow Styling</p>
-                                        <h3>Brow Shaping</h3>
+                                        <h3 class = "center-btn" style = "height: 60px;">Brow Styling</h3>
+                                        <p>Brow Lamination</p>
+                                        <p>Brow Tinting</p>
+                                        <p>Brow Shaping</p>
+                                        <div class="center-btn">
+                                            <a href="/services/brow-styling" class="button-13" role="button">Learn more</a>
+                                        </div>
                                     </header>
                                 </div>
                             </section>
                     </div>
                 </div>
                 <div class="col-4 padding-top-1 text-center">
-                    <a href="#" class="button">Check Promotion</a>
-                </div>	
-                <div class="col-4 padding-top-1 text-center">
-                    <a href="#" class="button">Check Brow Styling Package</a>
+                    <a href="https://www.instagram.com/vivace.lounge/" class="button">Check Promotion</a>
+                    <a href="/services/brow-package" class="button">Check Brow Styling Package</a>
                 </div>	
             </div>
+            <!-- Footer -->
+			{% include "includes/footer.html" %}
         </div>
     </body>
 </html>

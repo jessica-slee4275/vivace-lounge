@@ -2003,7 +2003,7 @@ input, select, textarea {
 
 	#copyright {
 		color: #aaa;
-		padding: 4em 0 0 0;
+		/* padding: 4em 0 0 0; */
 		text-align: center;
 	}
 
@@ -2041,7 +2041,7 @@ input, select, textarea {
 		display: none;
 	}
 
-	@media screen and (max-width: 980px) {
+	@media screen and (max-width: 780px) {
 
 		/* Basic */
 
@@ -2367,7 +2367,7 @@ input, select, textarea {
 			}
 
 			h2, h3, h4, h5, h6 {
-				font-size: 20pt;
+				font-size: 16pt;
 				margin: 2.5em 0 1em 0;
 			}
 

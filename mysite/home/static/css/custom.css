@@ -45,6 +45,9 @@
   width: 100%;
 }
 
+.height-auto{
+  height: auto !important;
+}
 .horizontally-center{
   justify-content: center;
 }
@@ -154,6 +157,16 @@
   margin: 0 auto;
   opacity: 1;
 }
+
+#service-smp-photo img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  opacity: 1;
+}
+
 .img-box .image-container {
   text-align: center; /* 이미지와 텍스트 중앙 정렬 */
 }
@@ -167,6 +180,12 @@
 .features-box{
   padding: 3em;
   margin-top: 2em; 
+}
+
+.center-btn {
+  display: flex;
+  justify-content: center; /* 수평 가운데 정렬 */
+  align-items: center; /* 수직 가운데 정렬 */
 }
 
 

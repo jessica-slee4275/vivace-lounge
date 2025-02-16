@@ -1,0 +1,48 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+	{% include "includes/header.html" %}
+	<body class="is-preload homepage">
+		<div id="page-wrapper">
+            <div id = "how-smp" class="box container features-box text-center">
+                <div class="col-12-medium">
+                    <h2 class ="cinzel-decorative-bold">Our Services</h2>
+                    
+                </div>
+                <section class="box feature">
+                    <p>Scalp Micropigmentation (SMP) is a non-surgical hair loss solution 
+                        that creates the illusion of a fuller scalp using micro-dot pigmentation. 
+                        Perfect for hairline restoration, density enhancement, and scar camouflage.</p>
+                    <img class="margin-top-1-5 width-70" src="{% static 'images/services/how-smp.png' %}" alt=""/>
+                </section>
+                <section id= "service-smp-photo" class="box feature">
+                    <div class="img-box">
+                        <div class="image-container">
+                            <img src="{% static 'images/services/smp-before-after.png' %}" alt="" />
+                        </div>
+                        <div class="image-container">
+                            <img src="{% static 'images/services/smp-before-after2.png' %}" alt="" />
+                        </div>
+                        <div class="image-container">
+                            <img src="{% static 'images/services/smp-before-after3.png' %}" alt="" />
+                        </div>
+                    </div>
+                    <div class="img-box">
+                        <div class="image-container">
+                            <img src="{% static 'images/services/smp-before-after4.png' %}" alt="" />
+                        </div>
+                        <div class="image-container">
+                            <img src="{% static 'images/services/smp-before-after5.png' %}" alt="" />
+                        </div>
+                        <div class="image-container">
+                            <img src="{% static 'images/services/smp-before-after6.png' %}" alt="" />
+                        </div>
+                    </div>
+                </section>
+                <div class="col-4 padding-top-1 text-center">
+                    <a href="https://www.instagram.com/vivace.lounge/" class="button" target="_blank">Check Promotion</a>
+                </div>	
+            </div>
+        </div>
+    </body>
+</html>

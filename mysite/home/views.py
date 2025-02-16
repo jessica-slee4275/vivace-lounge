@@ -10,5 +10,8 @@ def about(request):
 def services(request):
     return render(request, 'services.html')
 
+def smp(request):
+    return render(request, 'services/smp.html')
+
 def contact(request):
     return render(request, 'contact.html')
