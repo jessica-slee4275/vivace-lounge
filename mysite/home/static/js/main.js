@@ -37,6 +37,7 @@
 			$(
 				'<div id="navToggle">' +
 					'<a href="#navPanel" class="toggle"></a>' +
+					'<img src="../static/images/web-logo.png" alt="Logo" class="navbar-logo">'+
 				'</div>'
 			)
 				.appendTo($body);

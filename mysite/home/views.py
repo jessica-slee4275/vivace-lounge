@@ -13,5 +13,11 @@ def services(request):
 def smp(request):
     return render(request, 'services/smp.html')
 
+def semi_permanent_brows(request):
+    return render(request, 'services/semi_permanent_brows.html')
+
+def brow_styling(request):
+    return render(request, 'services/brow_styling.html')
+
 def contact(request):
     return render(request, 'contact.html')

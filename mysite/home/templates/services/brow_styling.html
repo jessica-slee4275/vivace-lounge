@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+	{% include "includes/header.html" %}
+	<body class="is-preload homepage">
+		<div id="page-wrapper">
+            <div id = "how-brow-styling" class="box container features-box text-center">
+                <div class="col-12-medium">
+                    <h2 class ="cinzel-decorative-bold">Brow Styling</h2>
+                </div>
+                <section class="box feature">
+                    <img src="{% static 'images/services/brow-tinting.jpg' %}" alt="" class="circle-img"/>
+                </section>
+                <section class="box feature text-left">
+                    <p class ="cinzel-decorative-bold margin-top-1-5">Brow Lamination</p>
+                    <p>A lifting and setting treatment that straightens and enhances your natural brows for a fuller, fluffier look. We use authentic InLei® Italy products for the best results!</p>
+                    <p class ="cinzel-decorative-bold margin-top-1-5">Brow Tinting</p>
+                    <p>Enhance your brows with a customized tint that adds depth and color, making them appear fuller and more defined.</p>
+                    <p class ="cinzel-decorative-bold margin-top-1-5">Brow Shaping (Wax, Tweezing, Trimming)</p>
+                    <p>Perfectly sculpted brows using precision shaping techniques, including waxing, tweezing, and trimming to suit your facial features.</p>
+                </section>
+                
+                <section class="box feature">
+                    <img src="{% static 'images/services/brow-package.png' %}" class = "width-100" alt="" />
+                </section>
+                <section class="box feature text-left">
+                    <p class ="cinzel-decorative-bold margin-top-1-5">Brow Mini Package</p>
+                    <p>Brow Tinting + Brow Shaping</p>
+                    <p class ="cinzel-decorative-bold margin-top-1-5">Brow Package</p>
+                    <p>Brow Lamination + Brow Tinting + Brow Shaping</p>
+                    <p class ="cinzel-decorative-bold margin-top-1-5">Brow Premium Package</p>
+                    <p>Brow Lamination + Brow Tinting + Brow Shaping + Hydrating Under-Eye + Aroma Hand Massage + Lip Resurfacing Therapy </p>
+                </section>
+                <div class="col-4 padding-top-1 text-center">
+                    <a href="https://www.instagram.com/vivace.lounge/" class="button" target="_blank">Check Promotion</a>
+                </div>
+                <div class="col-4 padding-top-1 text-center">
+                    <a href="https://book.squareup.com/appointments/80on3gpdyragy7/location/LS09D8JNPDZTF/services" class="button" target="_blank">Book Appointment</a>
+                </div>		
+            </div>
+            <!-- Footer -->
+			{% include "includes/footer.html" %}
+        </div>
+    </body>
+</html>

@@ -2206,6 +2206,8 @@ input, select, textarea {
 			}
 
 			#navToggle {
+				background: black;
+				height: 54px;
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -2215,7 +2217,6 @@ input, select, textarea {
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
 				display: block;
-				height: 44px;
 				left: 0;
 				position: fixed;
 				top: 0;
