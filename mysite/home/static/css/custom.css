@@ -60,7 +60,7 @@
 
 .image-container img {
   width: 100%; /* 이미지 크기 조정 */
-  height: 450px;
+  height: 500px;
   opacity: 0.5;
 }
 
@@ -74,19 +74,19 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 텍스트에 그림자 추가 */
 }
 
-#our-services img{
+#our-services img, #training img{
     width: 300px; 
     height: 200px; 
     object-fit: cover; /* 넘치는 부분 크롭 */
     border-radius: 10px; /* 모서리를 둥글게 (선택 사항) */
 }
 
-#our-services .row a {
+#our-services .row a, #training .row a {
     display: flex;
     justify-content: center;
 }
 
-#our-services h3, #book-appointment-today h2 {
+#our-services h3, #training h3, #book-appointment-today h2 {
     font-family: "Cinzel Decorative", serif;
     font-weight: 700;
     font-style: normal;
@@ -211,6 +211,36 @@
   left: 50%; transform: translateX(-50%);
 }
 
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+.panel p ,.panel ul {
+  text-align: left;
+}
+
+.panel ul{
+  margin-bottom: 0.5em;
+}
 /* CSS */
 .button-13 {
   background-color: #fff;

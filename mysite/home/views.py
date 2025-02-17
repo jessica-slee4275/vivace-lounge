@@ -19,5 +19,11 @@ def semi_permanent_brows(request):
 def brow_styling(request):
     return render(request, 'services/brow_styling.html')
 
+def training(request):
+    return render(request, 'training.html')
+
+def faq(request):
+    return render(request, 'faq.html')
+
 def contact(request):
     return render(request, 'contact.html')

@@ -1570,7 +1570,7 @@ input, select, textarea {
 		}
 
 		table th {
-			text-align: left;
+			/* text-align: left; */
 			padding: 0.5em 1em 0.5em 1em;
 			font-weight: 800;
 			margin: 0 0 1em 0;
@@ -1624,20 +1624,21 @@ input, select, textarea {
 
 .button {
 	display: inline-block;
-	padding: 10px 20px;
+	padding: 6px 17px;
 	font-size: 16px;
 	text-align: center;
 	text-decoration: none;
 	background-color: #375569;
 	color: white;
-	border: none;
+	border: 1px solid #375569;
 	border-radius: 5px;
 	cursor: pointer;
 	transition: background-color 0.3s ease;
 }
 
 .button:hover {
-	background-color: #000000;
+	background-color: #ffffff;
+	color: #375569;
 }
 
 @media (max-width: 768px) {
@@ -1902,9 +1903,17 @@ input, select, textarea {
 #nav {
 	height: 60px; /* 예시 높이 */
 	background-color: #000000;
-  }
-  
-  .nav-container {
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    padding: 0px 10px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.nav-container {
 	display: flex;
 	justify-content: space-between; /* 양쪽 끝에 배치 */
 	align-items: center; /* 수직 가운데 정렬 */

@@ -1,0 +1,82 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+	{% include "includes/header.html" %}
+	<body class="is-preload homepage">
+		<div id="page-wrapper">
+            <div id = "faq" class="box container features-box">
+                <div class="col-12-medium text-center">
+                    <h2 class ="cinzel-decorative-bold">FAQ</h2>
+                    <!-- Box -->
+                    <section class="box feature">
+                        <button class="accordion">What is Scalp Micropigmentation (SMP)?</button>
+                        <div class="panel">
+                        <p>SMP is a non-invasive, semi-permanent tattooing technique that replicates the appearance of hair follicles on the scalp.
+                            It is suitable for covering thinning areas, bald spots, and creating a fuller hairline.
+                            <div class="text-center">
+                                <img class="margin-top-1-5 width-70" src="{% static 'images/services/how-smp.png' %}" alt=""/>
+                            </div>
+                        </p>
+                        </div>
+
+                        <button class="accordion">How Does SMP Work?</button>
+                        <div class="panel">
+                        <p>
+                            <ul><strong>Procedure Overview:</strong>
+                                <li>Uses micro-needles to deposit pigment into the upper dermis.</li>
+                                <li>Customization based on skin tone, hair type, and desired look.</li>
+                            </ul>
+                            <ul><strong>Number of Sessions:</strong>
+                                <li>Typically requires 3–7 sessions.</li>
+                                <li>Sessions are spaced 1 week apart for optimal results.</li>
+                            </ul>
+                            <ul><strong>Expected Results:</strong>
+                                <li>A natural, full-looking hairline and scalp appearance.</li>
+                            </ul>
+                            <ul><strong>Immediate Visual Results:</strong>
+                                <li>Noticeable improvement after each session.</li>
+                            </ul>
+                        </p>
+                        </div>
+
+                        <button class="accordion">SMP vs. Hair Transplant</button>
+                        <div class="panel">
+                        <p>	
+                            <table>
+                                <tr>
+                                    <th></th>
+                                    <th>SMP</th>
+                                    <th>Hair Transplant</th>
+                                </tr>
+                                <tr>
+                                    <td>Procedure</td>
+                                    <td>Non-surgical and minimally invasive.</td>
+                                    <td>Surgical procedure (FUT or FUE techniques). For a hair transplant, the donor area typically requires either an incision or shaving.</td>
+                                </tr>
+                                <tr>
+                                    <td>Cost</td>
+                                    <td>$1,500–$6,000, depending on the area treated.</td>
+                                    <td>$4,000–$15,000, depending on the extent of the procedure.</td>
+                                </tr>
+                                <tr>
+                                    <td>Healing time</td>
+                                    <td>no downtime required. Minor redness subsides within a few days.</td>
+                                    <td>weeks/months Hair shedding (shock loss) occurs before regrowth starts after 3–4 months.</td>
+                                </tr>
+                            </table>
+                        </p>
+                    </div>
+                    </section>
+                    <section class="box feature">
+                        <p>Have more questions? Dm us!</p>
+                        <div class="col-4 padding-top-1 text-center">
+                            <a href="https://www.instagram.com/vivace.lounge/" class="button" target="_blank">Inquire Now</a>
+                        </div>	
+                    </section>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        {% include "includes/footer.html" %}
+    </body>
+</html>

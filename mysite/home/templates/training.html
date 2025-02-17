@@ -1,0 +1,88 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+	{% include "includes/header.html" %}
+	<body class="is-preload homepage">
+		<div id="page-wrapper">
+            <div class="box container features-box">
+                <div class="col-12-medium text-center">
+                    <h2 class ="cinzel-decorative-bold">Training</h2>
+                    <!-- Box -->
+                    <section class="box feature">
+                        <p>Training & Master Classes Available!<br/>
+                            We offer professional SMP and Brow Master Classes<br/> 
+                            for aspiring artists who want to elevate their skills and expertise. <br/>
+                            Learn from an experienced specialist and gain hands-on training <br/>
+                            in a high-quality learning environment.<br/></p>	
+                    </section>
+                    
+                    <div id = "training" class="row margin-top-1-5">
+                        <div class = "width-100">
+                            <h3 class ="cinzel-decorative-bold">What We Offer</h3>
+                        </div>
+                        <div class="col-4 col-12-medium">
+                            <!-- Box -->
+                                <section class="box feature">
+                                    <div class="center-btn">
+                                        <img class="image featured" src="{% static 'images/services/smp-before-after.png' %}" alt="" />
+                                    </div>
+                                    <div class="inner">
+                                        <header>
+                                            <h3 class = "center-btn" style = "height: 60px;">SMP Master Class</h3>
+                                            <p>Learn the art of Scalp Micropigmentation,  <br/>
+                                                from hairline design <br/>
+                                                to density techniques</p>
+                                        </header>
+                                    </div>
+                                </section>
+                        </div>
+                        <div class="col-4 col-12-medium">
+                            <!-- Box -->
+                                <section class="box feature">
+                                    <div class="center-btn">
+                                        <img class="image featured" src="{% static 'images/services/microblading.jpg' %}" alt="" />
+                                    </div>
+                                    <div class="inner">
+                                        <header>
+                                            <h3 class = "center-btn" style = "height: 60px;">Brow Master Class</h3>
+                                            <p>Specializing in Microblading <br/>
+                                                Microshading <br/>
+                                                Combo Brows</p>
+                                        </header>
+                                    </div>
+                                </section>
+                        </div>
+                        <div class="col-4 col-12-medium">
+                            <!-- Box -->
+                                <section class="box feature">
+                                    <div class="center-btn">
+                                        <img class="image featured" src="{% static 'images/services/brow-tinting.jpg' %}" alt="" />
+                                    </div>
+                                    <div class="inner">
+                                        <header>
+                                            <h3 class = "center-btn" style = "height: 60px;">Brow Styling Class</h3>
+                                            <p>Specializing in <br/>
+                                                brow Lamination <br/>
+                                                Brow Tinting <br/>
+                                                Brow Shaping</p>
+                                        </header>
+                                    </div>
+                                </section>
+                        </div>
+                    </div>
+
+                    <section class="box feature">
+                        
+                        <p>Want to become a certified SMP or Brow artist?<br/>
+                            DM us for more details on class schedules and pricing!</p>
+                        <div class="col-4 padding-top-1 text-center">
+                            <a href="https://www.instagram.com/vivace.lounge/" class="button" target="_blank">Inquire Now</a>
+                        </div>	
+                    </section>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        {% include "includes/footer.html" %}
+    </body>
+</html>
