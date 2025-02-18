@@ -31,12 +31,18 @@
 .margin-top--07{
   margin-top: -0.7em;
 }
+.margin-top-0-5{
+  margin-top: 0.5em;
+}
 .margin-top-1-5{
   margin-top: 1.5em !important;
 }
 
 .width-30{
   width: 30%;
+}
+.width-50{
+  width: 50%;
 }
 .width-70{
   width: 70%;
@@ -125,6 +131,13 @@
   margin-top: 5em;
 }
 
+.certification-box{
+  display: flex;
+  justify-content: center;
+  gap: 1em; /* 이미지 사이 간격 */
+  margin-bottom: 3em; /* 줄 간격 */
+}
+
 .img-box{
   display: flex;
   justify-content: center;
@@ -159,6 +172,15 @@
   opacity: 1;
 }
 
+#brow_styling_package img{
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  #brow_styling_package img {
+    width: 100%;
+  }
+}
 #service-smp-photo img{
   width: 100%;
   height: auto;

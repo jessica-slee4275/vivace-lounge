@@ -1921,7 +1921,12 @@ input, select, textarea {
 	max-width: 1200px; /* 최대 너비 (선택 사항) */
 	margin: 0 auto; /* 가운데 정렬 (선택 사항) */
   }
-  
+  /* @media (max-width: 863px) {
+    .nav-container {
+        flex-direction: column; 
+        align-items: flex-start; 
+    }
+}   */
   .logo img {
 	max-height: 40px; /* 로고 이미지 최대 높이 */
 	margin-top: 10px;
@@ -2050,7 +2055,7 @@ input, select, textarea {
 		display: none;
 	}
 
-	@media screen and (max-width: 780px) {
+	@media screen and (max-width: 860px) {
 
 		/* Basic */
 
@@ -2340,7 +2345,7 @@ input, select, textarea {
 
 				#navPanel .depth-0 {
 					color: #444;
-					font-weight: 800;
+					/* font-weight: 800; */
 				}
 
 			body.navPanel-visible #page-wrapper {
