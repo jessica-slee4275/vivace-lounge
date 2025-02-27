@@ -14,7 +14,14 @@
 <!-- Nav -->
 {% include "includes/nav.html" %}
 <!-- Scripts -->
-
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5980KJZC0C"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-5980KJZC0C');
+</script>
 <script src="{% static 'js/jquery.min.js' %}"></script>
 <script src="{% static 'js/jquery.dropotron.min.js' %}"></script>
 <script src="{% static 'js/browser.min.js' %}"></script>
