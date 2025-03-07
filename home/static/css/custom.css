@@ -250,12 +250,25 @@
   background-color: #ccc; 
 }
 
-.panel {
+/* .panel {
   padding: 0 18px;
   display: none;
   background-color: white;
   overflow: hidden;
+} */
+.panel {
+  max-height: 0;
+  padding: 0 18px;
+  background-color: white;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out, padding 0.4s ease-out;
 }
+
+.panel.active {
+  max-height: 500px; /* 또는 적절한 높이 값 */
+  padding: 18px; /* 패딩을 활성화해서 내용이 부드럽게 표시되도록 */
+}
+
 .panel p ,.panel ul {
   text-align: left;
 }
