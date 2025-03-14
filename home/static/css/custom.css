@@ -101,12 +101,6 @@
   display: inline-block;
 }
 
-.image-container img {
-  width: 100%; /* 이미지 크기 조정 */
-  height: 500px;
-  opacity: 0.5;
-}
-
 #service-smp-photo img{
   width: 100%;
   height: auto;
