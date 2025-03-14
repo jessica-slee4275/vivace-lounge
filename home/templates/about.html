@@ -2,103 +2,84 @@
 <!DOCTYPE HTML>
 <html>
 	{% include "includes/header.html" %}
-	<body class="is-preload homepage">
+	<body class="is-preload">
+		<!-- Page Wrapper -->
 		<div id="page-wrapper">
-            <div id = "about-us" class="box container features-box">
-                <div class="col-12-medium text-center">
-                    <h2 class ="cinzel-decorative-bold">About us</h2>
-                    <!-- Box -->
-                    <section class="box feature">
-                        <img src="{% static 'images/vivace-logo.png' %}" alt="" class="circle-img"/>
-                        <p>At Vivace Lounge, we specialize in Scalp Micropigmentation (SMP) and Brow Enhancements, offering high-quality, customized treatments 
-                            to help you achieve a natural, confident look.
-                            
-                            Our lead specialist holds an Anatomy Specialization from the University of Michigan and 
-                            has received professional training 
-                            from top SMP and Brow Studios. 
-                            With years of experience in the industry, 
-                            we ensure precision, artistry, and outstanding results.</p>
-                    </section>
-                    <h3 class ="cinzel-decorative-bold">Why Choose Us?</h3>
-                    
-                    <section class="box feature text-left">
-                        <p class ="cinzel-decorative-bold margin-top-1-5">✔️ Certified & Expertly Trained</p>
-                        <p>Advanced knowledge in anatomy & beauty aesthetics</p>
-                        <p class ="cinzel-decorative-bold margin-top-1-5">✔️ Premium Products Only</p>
-                        <p>We use Ghost Pigment® for SMP and authentic InLei® Italy products for brows</p>
-                        <p class ="cinzel-decorative-bold margin-top-1-5">✔️ Hygienic & Safe </p>
-                        <p>Single-use needles, sanitized tools, and a clean, professional environment</p>
-                        <p class ="cinzel-decorative-bold margin-top-1-5">✔️ Detail-Oriented & Customized</p>
-                        <p>Every treatment is tailored to complement your unique features</p>
-                    </section>
+			<!-- Nav -->
+			{% include "includes/nav.html" %}
+			<!-- Main -->
+				<article id="main">
+					<header>
+						<h2>About Us</h2>
+					</header>
+					<section class="wrapper style5">
+						<div class="inner">
 
-                    <h3 class ="cinzel-decorative-bold">Certifications</h3>
-                    <section id= "certifications" class="box feature">
-                        <div class="certification-box">
-                            <div class="image-container">
-                                <img src="{% static 'images/certifications/anatomy.png' %}" alt="" />
-                            </div>
-                            <div class="image-container">
-                                <img src="{% static 'images/certifications/bloodborne.png' %}" alt="" />
-                            </div>
-                            <div class="image-container">
-                                <img src="{% static 'images/certifications/olay-specialist.png' %}" alt="" />
-                            </div>
-                            <div class="image-container">
-                                <img src="{% static 'images/certifications/ontario-certi.png' %}" alt="" />
-                            </div>
-                        </div>
-                    
-                        <div class="certification-box">
-                            <div class="image-container">
-                                <img src="{% static 'images/certifications/barbicide.png' %}" alt="" />
-                            </div>
-                            <div class="image-container">
-                                <img src="{% static 'images/certifications/cosmetic-product.png' %}" alt="" />
-                            </div>
-                            <div class="image-container">
-                                <img src="{% static 'images/certifications/quality-control.png' %}" alt="" />
-                            </div>
-                            <div class="image-container">
-                                <img src="{% static 'images/certifications/skincare.png' %}" alt="" />
-                            </div>
-                        </div>
-                    </section>
+							<h3>Vivace Lounge</h3>
+							<p>At Vivace Lounge, we specialize in Scalp Micropigmentation (SMP), Brow Enhancements, and Skin Treatments, offering high-quality, customized solutions to help you achieve a natural and confident look.
+							Our lead specialist holds an Anatomy Specialization from the University of Michigan and has received professional training from top SMP, Brow, and Skin Treatment Studios worldwide. With years of industry experience, we ensure the highest level of precision, artistry, and outstanding results for every client.</p>
+							<hr />
 
-                    <h3 class ="cinzel-decorative-bold">The Products We Use</h3>
-                    <section id= "the-products-we-use" class="box feature">
-                    <div class="img-box">
-                        <div class="image-container">
-                            <img src="{% static 'images/icon/tested-by-expert.png' %}" alt="" />
-                            <div class="caption">Tested by SMP experts</div>
-                        </div>
-                        <div class="image-container">
-                            <img src="{% static 'images/icon/medical-grade.png' %}" alt="" />
-                            <div class="caption">Medical-grade sealed</div>
-                        </div>
-                        <div class="image-container">
-                            <img src="{% static 'images/icon/clinically.png' %}" alt="" />
-                            <div class="caption">Clinically Tested</div>
-                        </div>
-                    </div>
-                
-                    <div class="img-box">
-                        <div class="image-container">
-                            <img src="{% static 'images/icon/professional.png' %}" alt="" />
-                            <div class="caption">Professional Use Only</div>
-                        </div>
-                        <div class="image-container">
-                            <img src="{% static 'images/icon/vegan.png' %}" alt="" />
-                            <div class="caption">Vegan-friendly</div>
-                        </div>
-                    </div>
-                    </section>
+							<h4>Our Philosophy</h4>
+							<p>We believe in enhancing natural beauty through advanced techniques, premium products, and a client-focused approach. Our treatments are designed to be subtle yet impactful, ensuring that you leave our lounge feeling confident and rejuvenated.</p>
+							<hr/>
 
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Footer -->
-        {% include "includes/footer.html" %}
-    </body>
+							<h4>Why Choose Us?</h4>
+							<p class ="">✔️ Certified & Expertly Trained<br/>
+							Our team consists of licensed professionals with advanced knowledge in anatomy and beauty aesthetics.<br/>
+							We continuously refine our skills through ongoing education and international training.</p>
+							<p class ="">✔️ Premium Products Only<br/>
+							We use Ghost Pigment® for SMP, a leading brand known for its long-lasting and natural results.<br/>
+							For brow enhancements, we use authentic InLei® Italy products, ensuring the highest safety and quality standards.<br/>
+							Our skincare treatments feature dermatologist-approved formulas for optimal skin health.</p>
+							<p class ="">✔️ Hygienic & Safe <br/>
+							100% disposable needles – single-use for maximum hygiene.<br/>
+							All tools are sanitized and disinfected after every treatment.<br/>
+							Our lounge maintains a clean, professional, and welcoming environment for all clients.</p>
+							<p class ="">✔️ Detail-Oriented & Customized<br/>
+							No "one-size-fits-all" solutions – every treatment is designed to complement your unique features.<br/>
+							We conduct in-depth consultations to understand your preferences and concerns.<br/>
+							Our goal is to create a natural, flawless, and long-lasting look tailored just for you.</p>
+							<hr />
+
+							<h4>Certifications</h4>
+							<div id= "certifications" class="box feature">
+								<div class="certification-box">
+									<div class="image-container">
+										<img src="{% static 'images/certifications/anatomy.png' %}" alt="" />
+									</div>
+									<div class="image-container">
+										<img src="{% static 'images/certifications/bloodborne.png' %}" alt="" />
+									</div>
+									<div class="image-container">
+										<img src="{% static 'images/certifications/olay-specialist.png' %}" alt="" />
+									</div>
+									<div class="image-container">
+										<img src="{% static 'images/certifications/ontario-certi.png' %}" alt="" />
+									</div>
+								</div>
+							
+								<div class="certification-box">
+									<div class="image-container">
+										<img src="{% static 'images/certifications/barbicide.png' %}" alt="" />
+									</div>
+									<div class="image-container">
+										<img src="{% static 'images/certifications/cosmetic-product.png' %}" alt="" />
+									</div>
+									<div class="image-container">
+										<img src="{% static 'images/certifications/quality-control.png' %}" alt="" />
+									</div>
+									<div class="image-container">
+										<img src="{% static 'images/certifications/skincare.png' %}" alt="" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</article>
+
+			<!-- Footer -->
+			{% include "includes/footer.html" %}
+		</div>
+	</body>
 </html>

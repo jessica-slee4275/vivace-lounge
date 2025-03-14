@@ -2,87 +2,48 @@
 <!DOCTYPE HTML>
 <html>
 	{% include "includes/header.html" %}
-	<body class="is-preload homepage">
+	<body class="is-preload">
+		<!-- Page Wrapper -->
 		<div id="page-wrapper">
-            <div class="box container features-box">
-                <div class="col-12-medium text-center">
-                    <h2 class ="cinzel-decorative-bold">Training</h2>
-                    <!-- Box -->
-                    <section class="box feature">
-                        <p>Training & Master Classes Available!<br/>
-                            We offer professional SMP and Brow Master Classes<br/> 
-                            for aspiring artists who want to elevate their skills and expertise. <br/>
-                            Learn from an experienced specialist and gain hands-on training <br/>
-                            in a high-quality learning environment.<br/></p>	
-                    </section>
-                    
-                    <div id = "training" class="row margin-top-1-5">
-                        <div class = "width-100">
-                            <h3 class ="cinzel-decorative-bold">What We Offer</h3>
-                        </div>
-                        <div class="col-4 col-12-medium">
-                            <!-- Box -->
-                                <section class="box feature">
-                                    <div class="center-btn">
-                                        <img class="image featured" src="{% static 'images/services/smp-before-after.png' %}" alt="" />
-                                    </div>
-                                    <div class="inner">
-                                        <header>
-                                            <h3 class = "center-btn" style = "height: 60px;">SMP Master Class</h3>
-                                            <p>Learn the art of Scalp Micropigmentation,  <br/>
-                                                from hairline design <br/>
-                                                to density techniques</p>
-                                        </header>
-                                    </div>
-                                </section>
-                        </div>
-                        <div class="col-4 col-12-medium">
-                            <!-- Box -->
-                                <section class="box feature">
-                                    <div class="center-btn">
-                                        <img class="image featured" src="{% static 'images/services/microblading.jpg' %}" alt="" />
-                                    </div>
-                                    <div class="inner">
-                                        <header>
-                                            <h3 class = "center-btn" style = "height: 60px;">Brow Master Class</h3>
-                                            <p>Specializing in Microblading <br/>
-                                                Microshading <br/>
-                                                Combo Brows</p>
-                                        </header>
-                                    </div>
-                                </section>
-                        </div>
-                        <div class="col-4 col-12-medium">
-                            <!-- Box -->
-                                <section class="box feature">
-                                    <div class="center-btn">
-                                        <img class="image featured" src="{% static 'images/services/brow-tinting.jpg' %}" alt="" />
-                                    </div>
-                                    <div class="inner">
-                                        <header>
-                                            <h3 class = "center-btn" style = "height: 60px;">Brow Styling Class</h3>
-                                            <p>Specializing in <br/>
-                                                brow Lamination <br/>
-                                                Brow Tinting <br/>
-                                                Brow Shaping</p>
-                                        </header>
-                                    </div>
-                                </section>
-                        </div>
-                    </div>
+			<!-- Nav -->
+			{% include "includes/nav.html" %}
+			<!-- Main -->
+				<article id="main">
+					<header>
+						<h2>Training</h2>
+					</header>
+					<section class="wrapper style5">
+						<div class="inner">
+							<h3>Training & Master Classes Available!</h3>
+							<p>
+								We offer professional SMP and Brow Master Classes designed for aspiring artists looking to elevate their skills and expertise. Learn from an experienced specialist and gain hands-on training in a high-quality learning environment.<br/>
+							<hr />
 
-                    <section class="box feature">
-                        
-                        <p>Want to become a certified SMP or Brow artist?<br/>
-                            DM us for more details on class schedules and pricing!</p>
-                        <div class="col-4 padding-top-1 text-center">
-                            <a href="https://www.instagram.com/vivace.lounge/" class="button" target="_blank">Inquire Now</a>
-                        </div>	
-                    </section>
-                </div>
-            </div>
-        </div>
-        <!-- Footer -->
-        {% include "includes/footer.html" %}
-    </body>
+							<h3>What You'll Learn</h3>
+							<h4>Scalp Micropigmentation (SMP) Training</h4>
+							<p>
+							✔️ Understanding Hair Loss & Scalp Anatomy – Learn the science behind SMP and how to create natural-looking results.<br/>
+							✔️ Machine & Needle Techniques – Master different techniques for realistic scalp micropigmentation.<br/>
+							✔️ Color Theory & Pigment Matching – Learn how to choose the right pigments for different skin tones.<br/>
+							✔️ Hands-On Practice – Work on live models and synthetic skins under expert supervision.<br/>
+							✔️ Business & Marketing Tips – Gain insights on how to start or grow your SMP business.<br/>
+							</p>
+
+							<h4>Brow Master Class (Lamination, Tinting)</h4>
+							<p>
+							✔️ Facial Analysis & Brow Mapping – Understand how to create the perfect brow shape for different face structures.<br/>
+							✔️ Lamination & Tinting Application – Elevate your skills with additional services.<br/>
+							✔️ Hygiene & Safety Protocols – Learn industry-standard sanitation practices.<br/>
+							✔️ Live Model Training – Gain real-world experience under expert guidance.<br/>
+							</p>
+							<hr/>
+							
+						</div>
+					</section>
+				</article>
+
+			<!-- Footer -->
+			{% include "includes/footer.html" %}
+		</div>
+	</body>
 </html>

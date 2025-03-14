@@ -2,28 +2,48 @@
 <!DOCTYPE HTML>
 <html>
 	{% include "includes/header.html" %}
-	<body class="is-preload homepage">
+	<body class="landing is-preload">
+		<!-- Page Wrapper -->
 		<div id="page-wrapper">
+			<!-- Nav -->
+			{% include "includes/nav.html" %}
 			<!-- Banner -->
-			<div>
-				<div class="image-container">
-					<img src="{% static 'images/grey-background.png' %}" alt="grey-background" style="width:100%;">
-					<div class="col-12-medium text-overlay">
-						<h2 class ="cinzel-decorative-bold">Enhancing Your Natural Beauty with Precision & Artistry!</h2>
-						<p class ="cinzel-decorative-bold">Expert SMP & Brow Services for a Flawless, Confident Look</p>
-						<div class="col-4">
-							<a href="https://www.instagram.com/vivace.lounge/" class="button" target="_blank">Check Promotion</a>
-						</div>	
-						<p class ="cinzel-decorative-regular padding-top-05 font-size-1">Redefining Beauty, One Stroke at a Time.</p>
-					</div>
+			<section id="banner">
+				<div class="inner">
+					<h2>Vivace Lounge</h2>
+					<p>Enhancing Your Natural Beauty with Precision & Artistry!<br/>
+					Expert SMP & Beauty Services for a Flawless, Confident Look</p>
+					<ul class="actions special">
+						<li><a href="/promotion.html" class="button primary">Check Promotion</a></li>
+					</ul>
 				</div>
-			</div>			
-			<!-- Our Services -->
-			{% include "includes/our-services.html" %}
-			<!-- Client Testimonial -->
-			{% include "includes/client-testimonial.html" %}			
-			<!-- Book Your Appointment Today -->
-			{% include "includes/book-appointment-today.html" %}
+				<a href="#learn-more" class="more scrolly">Learn More</a>
+			</section>
+
+			<!-- learn-more -->
+			<section id="learn-more" class="wrapper style1 special">
+				<div class="inner">
+					<header class="major">
+						<h2>Why choose Vivace Lounge in Toronto?</h2>
+						<p>At Vivace Lounge, our professionals provide tailored solutions in SMP (Scalp Micropigmentation), brows enhancement, and beauty treatments that ensure natural-looking and long-lasting results. Located conveniently in Toronto, our lounge offers top-quality services including:</p>
+						<p class="icon fa-clipboard"> SMP Treatments: Restore confidence from hair loss with SMP by our highly skilled SMP specialists.</p>
+						<p class="icon fa-clipboard"> Brow Services: From lamination to tinting, shaping, and microblading—we've got your brows covered.</p>
+						<p class="icon fa-clipboard"> Skin Treatments: Advanced techniques and premium skincare products to achieve a healthy, radiant glow.</p>
+						<p>Book your appointment today and experience why Vivace Lounge is considered the best in Toronto for SMP, Brows, and Skin treatments.</p>
+					</header>
+				</div>
+			</section>
+
+			<!-- SMP -->
+			{% include "includes/main/smp.html" %}
+			<!-- BROW -->
+			{% include "includes/main/brow.html" %}
+			<!-- skin -->
+			{% include "includes/main/skin.html" %}
+
+			<!-- CTA -->
+			{% include "includes/contact.html" %}
+
 			<!-- Footer -->
 			{% include "includes/footer.html" %}
 		</div>

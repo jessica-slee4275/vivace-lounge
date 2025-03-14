@@ -1,19 +1,36 @@
 {% load static %}
-<nav id="nav">
-    <div class="nav-container">
-        <div class="logo">
-        <a href="/">
-            <img src="{% static 'images/web-logo.png' %}" alt="Logo">
-        </a>
-        </div>
-        <ul class="menu">
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About Us</a></li>
-        <li><a href="/services">Services</a></li>
-        <li><a href="/training">Training</a></li>
-        <li><a href="/faq">FAQ</a></li>
-        <li><a href="#footer-wrapper">Contact</a></li>
+<!-- Header -->
+<header id="header" class="alt">
+    <h1><a href="/">Vivace Lounge</a></h1>
+    <nav id="nav">
+        <ul>
+            <li class="special">
+            <a href="#menu" class="menuToggle"><span>Menu</span></a>
+            <div id="menu">
+                <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About Us</a></li>
+                <li class="has-submenu">
+                    <a href="#">Services ▾</a>
+                    <ul style="margin-left: 15px;">
+                        <li class="has-submenu" style="margin-top: 15px !important;">
+                            <a href="/smp">SMP ▾</a>
+                            <ul class="submenu">
+                                <li><a href="/smp/faq">FAQ</a></li>
+                                <li><a href="/smp/about-smp">About SMP</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/brow">Brow</a></li>
+                        <li><a href="/skin">Skin Treatment</a></li>
+                    </ul>
+                </li>
+                <li><a href="/training">Training</a></li>
+                <li><a href="/promotion">Promotion</a></li>
+                <li><a href="/#contact">Contact Us</a></li>
+                <li><a href="https://book.squareup.com/appointments/80on3gpdyragy7/location/LS09D8JNPDZTF/services" target="_blank" class="button fit primary">Book Appointment</a></li>
+                </ul>
+            </div>
+            </li>
         </ul>
-        <a href="https://book.squareup.com/appointments/80on3gpdyragy7/location/LS09D8JNPDZTF/services" class="button" target="_blank">Book Appointment</a>
-    </div>
-</nav>
+    </nav>
+</header>

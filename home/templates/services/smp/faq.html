@@ -1,0 +1,105 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+	{% include "includes/header.html" %}
+	<script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var acc = document.getElementsByClassName("accordion");
+        
+            for (var i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    
+                    if (panel.style.maxHeight) {
+                        panel.style.maxHeight = null;
+                        //panel.style.padding = "0 18px";
+                    } else {
+                        panel.style.maxHeight = panel.scrollHeight + "px";
+                        //panel.style.padding = "18px";
+                    }
+                });
+            }
+        });
+        
+
+    </script>
+	<body class="is-preload">
+		<!-- Page Wrapper -->
+		<div id="page-wrapper">
+			<!-- Nav -->
+			{% include "includes/nav.html" %}
+			<!-- Main -->
+				<article id="main">
+					<header>
+						<h2>SMP FAQ</h2>
+					</header>
+					<section class="wrapper style5">
+						<div class="inner">
+							<section>
+								<div class="accordion">What is Scalp Micropigmentation (SMP)?</div>
+								<div class="panel">
+								<p>SMP is a non-invasive, semi-permanent tattooing technique that replicates the appearance of hair follicles on the scalp.
+									It is suitable for covering thinning areas, bald spots, and creating a fuller hairline.
+									<div class="text-center">
+										<img class="margin-top-1-5 width-70" src="{% static 'images/services/how-smp.png' %}" alt=""/>
+									</div>
+								</p>
+								</div>
+								<div class="accordion">How long does SMP last?</div>
+								<div class="panel">
+								<p>SMP typically lasts 2 to 5 years before requiring a touch-up. Proper aftercare and UV protection can help extend its longevity.</p>
+								</div>
+								<div class="accordion">Does SMP look real?</div>
+								<div class="panel">
+									<p>Yes! When done by an experienced SMP artist, the results mimic natural hair follicles, creating a seamless and natural appearance.</p>
+								</div>
+								<div class="accordion">Is SMP painful?</div>
+								<div class="panel">
+									<p>Most clients describe SMP as mild discomfort rather than pain. The sensation is similar to getting a light tattoo, and numbing agents can be used to minimize discomfort.</p>
+								</div>
+								<div class="accordion">What are the side effects of SMP?</div>
+								<div class="panel">
+									<p>SMP has minimal side effects, but some clients experience temporary redness or minor swelling that subsides within a few days.</p>
+								</div>
+								<div class="accordion">Can SMP be removed?</div>
+								<div class="panel">
+									<p>Yes, SMP can be removed with laser tattoo removal or saline removal methods, though most people opt for touch-ups instead of full removal.</p>
+								</div>
+								<div class="accordion">Is SMP suitable for all hair types and skin tones?</div>
+								<div class="panel">
+									<p>Absolutely! SMP is customized to match different skin tones and hair follicle shades to ensure a natural appearance.</p>
+								</div>
+								<div class="accordion">How much does SMP cost?</div>
+								<div class="panel">
+									<p>The cost varies based on coverage area and clinic location. Prices typically range from $1,000 to $6,000 depending on the treatment size.</p>
+								</div>
+								<div class="accordion">When can I wash my scalp after SMP?</div>
+								<div class="panel">
+									<p>You should wait at least 1-4 days before washing your scalp. After that, use a gentle cleanser and avoid scrubbing.</p>
+								</div>
+								<div class="accordion">Will SMP fade over time?</div>
+								<div class="panel">
+									<p>Yes, SMP naturally fades over several years. However, regular touch-ups can maintain its fresh appearance.</p>
+								</div>
+								<div class="accordion">How to Maintain SMP for a Longer Duration?</div>
+								<div class="panel">
+									<p>1. Use Sunscreen – UV rays can cause pigment fading. Always apply SPF 30+ on your scalp. <br/>
+										2. Moisturize Regularly – Keeping your scalp hydrated prevents excessive dryness and pigment loss.<br/>
+										3. Avoid Harsh Skincare Products – Exfoliating or using strong acids can lead to premature fading.</p>
+								</div>
+								<div class="accordion">How do I book an SMP consultation?</div>
+								<div class="panel">
+									<p>You can book an SMP consultation by visiting our website or contacting us <a href="https://book.squareup.com/appointments/80on3gpdyragy7/location/LS09D8JNPDZTF/services">Click Here</a></p>
+								</div>
+							</section>
+							{% include "includes/contact.html" %}
+						</div>
+					</section>
+				</article>
+
+			<!-- Footer -->
+			{% include "includes/footer.html" %}
+		</div>
+	</body>
+</html>

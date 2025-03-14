@@ -1,0 +1,63 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+	{% include "includes/header.html" %}
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+			<!-- Nav -->
+			{% include "includes/nav.html" %}
+				
+				<!-- Main -->
+				<article id="main">
+					<header>
+						<h2>About SMP</h2>
+						<p>Let's Learn About Scalp Micropigmentation (SMP)</p>
+					</header>
+					<section class="wrapper style5">
+						<div class="inner">
+							<div class="w3-row-padding w3-margin-top">
+								<div class="w3-third">
+								<a href="psychological-impact">
+									<div class="w3-card">
+										<img src="{% static 'images/services/man-scalptreatment.jpg' %}" style="width:100%">
+										<div class="w3-container">
+										<h5>Scalp Micropigmentation and Its Psychological Impact: A Review of Studies</h5>
+										</div>
+									</div>
+								</a>
+								</div>
+							
+								<div class="w3-third">
+								<a href="smp-and-hair-growth">
+									<div class="w3-card">
+										<img src="{% static 'images/services/scalp-examine.png' %}" style="width:100%">
+										<div class="w3-container">
+										<h5>Does SMP Affect Existing Hair Follicles? A Scientific Analysis</h5>
+										</div>
+									</div>
+								</a>
+								</div>
+								
+								<div class="w3-third">
+								<a href="smp-last">
+									<div class="w3-card">
+										<img src="{% static 'images/services/consult.png' %}" style="width:100%">
+										<div class="w3-container">
+										<h5>How Long Does Scalp Micropigmentation Last? A Scientific Analysis</h5>
+										</div>
+									</div>
+								</a>
+								</div>
+							</div>
+						</div>
+					</section>
+				</article>
+
+			<!-- Footer -->
+			{% include "includes/footer.html" %}
+			</div>
+	</body>
+</html>

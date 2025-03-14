@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+	{% include "includes/header.html" %}
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+			<!-- Nav -->
+			{% include "includes/nav.html" %}
+				
+				<!-- Main -->
+				<article id="main">
+					<header>
+						<h2>Promotion</h2>
+						<p>Limited-Time Offers – Enhance Your Beauty Today!</p>
+					</header>
+					<section class="wrapper style5">
+						<div class="inner">
+							<div class="w3-row-padding w3-margin-top">
+								<div class="w3-third">
+								<div class="w3-card">
+									<img src="{% static 'images/promotion/smp-model-wanted.png' %}" style="width:100%">
+									<div class="w3-container">
+									<h5>SMP - Model Discount</h5>
+									</div>
+								</div>
+								</div>
+							
+								<div class="w3-third">
+								<div class="w3-card">
+									<img src="{% static 'images/promotion/review-event.png' %}" style="width:100%">
+									<div class="w3-container">
+									<h5>Review Event</h5>
+									</div>
+								</div>
+								</div>
+							
+								<div class="w3-third">
+								<div class="w3-card">
+									<img src="{% static 'images/promotion/smp-first-customer.png' %}" style="width:100%">
+									<div class="w3-container">
+									<h5>First Customer Discount</h5>
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</article>
+
+			<!-- Footer -->
+			{% include "includes/footer.html" %}
+			</div>
+	</body>
+</html>
